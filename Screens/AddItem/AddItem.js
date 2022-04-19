@@ -11,7 +11,7 @@ import {NativeBaseProvider, Spinner, Fab} from 'native-base';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import ItemScreen from '../ItemScreen/ItemScreen';
 
-const AddItem = ({navigation}) => {
+const AddItem = () => {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
   const [items, setItems] = useState([]);
